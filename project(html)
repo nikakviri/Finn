@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Bootstrap Example</title>
+    <script src="scratch.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<link href="scratch.css" type="text/css" rel="stylesheet">
+<header style="background-color: darkslategrey;padding-top: 2%">
+    <h1 style="display: inline;color: white ; margin-top: -1%">MARAZM</h1>
+    <form class="login" style="background-color: darkslategrey;float: right ;margin-right: 10%; display: inline; color:white;">
+        Nickname:<input type="text" name="login" id="log">
+        Password:<input type="password" name="pass" id="pass">
+        <input type="submit" id="sub1" value="Log in">
+    </form>
+
+</header>
+<div class="registration">
+    <form action="/action_page.php" method="post" class="reg">
+        <h2 class="txt">Registration</h2>
+        <h5 class="txt">First name: </h5>
+        <input type="text"  name="firstname" value="firstname">
+        <h5 class="txt"> Last name:</h5>
+        <input type="text" name="lastname" value="lastname">
+       <h5 class="txt">E-Mail:</h5><br>
+        <input type="text" name="email" value="aaa@bbb.com">
+        <h5 class="txt"> Choose Password:</h5>
+        <input type="password" name="password" value="*******">
+        <h5 class="txt">Question: </h5>
+        <input type="text" name="Secquestion">
+        <h5 class="txt">Secret Answer:</h5>
+        <input type="text" name="Secanswer"><br><br>
+        <input type="submit" id="sub2" value="Sign up">
+    </form>
+</div>
+
+
+</body>
+</html>
